@@ -1,0 +1,42 @@
+.footer {
+    background-color: var(--secondary);
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    color: var(--primary);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container>div {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer .about .contact span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .about .contact span a:hover {
+    color: #ddd;
+}
+
+.footer-content .logo img {
+    height: 250px;
+    float: left;
+    margin-right: 20%;
+}
+
+.footer-section.copyright {
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary);
+    padding: 5% 10%;
+    border-radius: 0 100px 0 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+#info {
+    background-color: var(--primary);
+    border-radius: 50px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info h3 {
+    color: var(--secondary);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#info a {
+    color: var(--secondary);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#info p {
+    color: var(--secondary);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#formulaire input {
+    height: 30px;
+}
+
+#formulaire textarea {
+    width: 20vw;
+}
+
+#formulaire #sujet {
+    width: 20vw;
+}
+
+#formulaire input,
+#formulaire textarea {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 5px solid var(--primary);
+    background-color: var(--secondary);
+}
+
+#formulaire input::placeholder,
+#formulaire textarea::placeholder {
+    color: var(--primary);
+}
+
+#formulaire button {
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    scale: 150%;
+}
+
+#formulaire button:hover {
+    background-color: var(--secondary);
+    border: none;
+    border: 5px solid var(--primary);
+}
+
+#formulaire h2 {
+    color: var(--primary);
+}
