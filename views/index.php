@@ -104,9 +104,9 @@
 	<section class="social">
 		<h2><span class="text-primary">On se like</span> sur les réseaux ?</h2>
 		<ul class="social-media">
-			<li><a href="#" class="social-link"><img src="/ACAD_MMI/assets/media/icons/tiktok.svg" alt="Logo du réseau social Tiktok"></a></li>
-			<li><a href="#" class="social-link"><img src="/ACAD_MMI/assets/media/icons/insta.svg" alt="Logo du réseau social Tiktok"></a></li>
-			<li><a href="#" class="social-link"><img src="/ACAD_MMI/assets/media/icons/linkedin.svg" alt="Logo du réseau social Tiktok"></a></li>
+			<li><a href="https://www.tiktok.com/@alteretcomm" class="social-link"><img src="/ACAD_MMI/assets/media/icons/tiktok.svg" alt="Logo du réseau social Tiktok"></a></li>
+			<li><a href="https://www.instagram.com/alteretcomm/" class="social-link"><img src="/ACAD_MMI/assets/media/icons/insta.svg" alt="Logo du réseau social Tiktok"></a></li>
+			<li><a href="https://www.linkedin.com/in/alter-comm-b8b821304/" class="social-link"><img src="/ACAD_MMI/assets/media/icons/linkedin.svg" alt="Logo du réseau social Tiktok"></a></li>
 		</ul>
 	</section>
 </main>

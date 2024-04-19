@@ -1,5 +1,14 @@
 nav {
     background-color: var(--secondary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo {
+    width: 150px;
+}
+nav .logo img {
+    width: 100%;
 }
 
 nav ul {

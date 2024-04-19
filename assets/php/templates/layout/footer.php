@@ -3,22 +3,22 @@
     <div class="footer">
         <div class="footer-content">
             <div class="footer-section about">
-                <h1>
+                <h2>
                     De l'ombre à la lumière, votre projet révélé.
-                </h1>
-                <div class="container">
+                </h2>
+                <div class="container-footer">
                     <div class="logo">
                         <img src="/ACAD_MMI/assets/media/icons/Logo-beige.png" />
                     </div>
                     <div class="contact">
-                        <h2>
+                        <p>
                             <span><i class="bi bi-phone-fill phone-icon"></i>
                             <a href="tel:+330632141688">+33 06 32 14 16 88</a></span>
-                        </h2>
-                        <h2>
+                        </p>
+                        <p>
                         <span><i class="fas fa-envelope"></i> &nbsp;
                             <a href="mailto:<EMAIL>">alteretcomm.contact@gmail.com<EMAIL></a></span>
-                        </h2>
+                        </p>
                     </div>
                     <div class="socials">
                         <a href="#"><i class="bi bi-facebook"></i></a>

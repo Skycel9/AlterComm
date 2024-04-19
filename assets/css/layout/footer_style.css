@@ -4,7 +4,7 @@
     padding: 20px 0;
 }
 
-.footer h1 {
+.footer h2 {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -12,9 +12,10 @@
     color: var(--primary);
 }
 
-.footer .container {
+.footer .container-footer {
     display: flex;
     justify-content: space-between;
+    margin: 2rem 5rem;
 }
 
 .footer .container>div {
@@ -22,6 +23,12 @@
     padding: 10px;
 }
 
+.footer .about .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .footer .about .contact span a {
     color: #fff;
     text-decoration: none;

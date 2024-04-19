@@ -2,7 +2,8 @@
 @include "assets/php/templates/layout/head.php";
 @include "assets/php/templates/layout/navbar.php";
 ?>
-	<link rel="stylesheet" href="/ACAD_MMI/assets/css/pages/contact_style.css">
+<link rel="stylesheet" href="/ACAD_MMI/assets/css/pages/contact_style.css">
+
 <section id="contact">
             <div class="container">
 
