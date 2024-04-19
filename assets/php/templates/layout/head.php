@@ -29,7 +29,7 @@
 		}
 	}
 	
-	$layoutsStyle = scandir(HOME_URL ."/assets/css/components");
+	$layoutsStyle = scandir(HOME_URL ."/assets/css/layout");
 	foreach ($layoutsStyle as $file) {
 		if ($file !== ".." && $file !== ".") {
 			echo "<link rel='stylesheet' type='text/css' href='".$base_url."assets/css/layout/$file'>";
