@@ -1,10 +1,121 @@
 .hero {
 	width: 100%;
 	height: 100vh;
-	background: url("/ACAD_MMI/assets/media/hero-bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.container {
-	margin: var(--marginY) var(--marginX);
+.bg-img {
+	position: absolute;
+	width:100%;
+	height: 100%;
+	z-index: -1;
+	filter: brightness(35%);
+}
+.hero hgroup {
+	color: var(--text-light);
+	margin-top: -15%;
+	font-family: var(--text-font);
+}
+.hero hgroup h1{
+	color: var(--primary);
+	font-family: var(--title-font);
+	font-size: 3rem;
+}
+.hero hgroup .emphasis {
+	color: var(--text-light-300);
+}
+.hero .empty {
+	width: 40%;
+}
+
+#about h2 {
+	font-family: var(--title-font);
+	text-align: center;
+	font-size: 2rem;
+}
+#about p {
+	font-family: var(--text-font);
+	width: 75%;
+	margin: auto;
+}
+
+hr {
+	outline: none;
+	border: none;
+	height: 2px;
+	width: 60%;
+	border-radius: 2px;
+	margin: 5rem auto;
+	background: var(--primary);
+}
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.swiper-slide img {
+	height: 100%;
+	width: 100%;
+}
+.swiper-slide p {
+	font-size: .9rem;
+}
+
+.projects h2 {
+	font-family: var(--title-font);
+	color: var(--secondary);
+	margin-left: 3rem;
+	font-size: 2rem;
+}
+
+.team {
+	display: flex;
+	justify-content: space-around;
+}
+.team h2 {
+	font-family: var(--title-font);
+	font-size: 2rem;
+	text-align: right;
+	position: relative;
+	width: fit-content;
+}
+.team h2::after {
+	content: "";
+	display:block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: var(--primary);
+}
+.team .right {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.team .left img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.team > div {
+	width: 40%;
+}
+
+.social {
+	margin: 5rem 0;
+}
+.social .social-media {
+	list-style: none;
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+.social h2 {
+	font-size: 2rem;
 }

@@ -14,6 +14,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 	<?php
 	$componentsStyle = scandir(HOME_URL ."/assets/css/components");
 	foreach ($componentsStyle as $file) {
@@ -33,3 +40,8 @@
 	<link rel="stylesheet" href="<?= $base_url ?>assets/css/pages/style.css">
 </head>
 <body>
+<script type="module">
+	import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+	const swiper = new Swiper(...)
+</script>

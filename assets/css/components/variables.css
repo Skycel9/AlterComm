@@ -10,7 +10,8 @@
 
 	/* Définition des variables des polices */
 	--text-font: "Montserrat", sans-serif;
-	--title-font: "", sans-serif;
+	--title-font: "Panton Narrow", sans-serif;
+	--replace-font : "Intro Rust L Base 2 Line", sans-serif;
 
 	/* Définition des variables des marges */
 	--marginX: 200px;

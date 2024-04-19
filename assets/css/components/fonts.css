@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Panton Narrow';
+	src: url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-Black.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Panton Narrow';
+	src: url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-Black.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Panton Narrow';
+	src: url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-BlackItalic.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Panton Narrow';
+	src: url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-BlackItalic.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/PantonNarrow/PantonNarrow-Trial-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust H2 Base 2 Line';
+	src: url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustH2-Base2Line.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustH2-Base2Line.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust H2 Base 2 Line';
+	src: url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustH2-Base2Line.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustH2-Base2Line.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust';
+	src: url('/ACAD_MMI/assets/fonts/IntroRust/IntroRust-Base.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/IntroRust/IntroRust-Base.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust';
+	src: url('/ACAD_MMI/assets/fonts/IntroRust/IntroRust-Base.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/IntroRust/IntroRust-Base.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust L Base 2 Line';
+	src: url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustL-Base2Line.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustL-Base2Line.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust L Base 2 Line';
+	src: url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustL-Base2Line.woff2') format('woff2'),
+	url('/ACAD_MMI/assets/fonts/IntroRust/IntroRustL-Base2Line.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+

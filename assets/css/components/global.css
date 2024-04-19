@@ -8,7 +8,28 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--secondary);
 }
 .btn-primary {
+	padding: 10px;
+	background: var(--secondary);
+	border-radius: 25px;
 	display: block;
+	color: var(--text-light);
+	font-family: var(--text-font);
+	text-decoration: none;
+	line-height: 1.3rem;
+	transition: all .3s ease-in-out;
+	width: fit-content;
+}
+.btn-primary:hover {
+	color: var(--primary);
+}
+.btn-primary span {
+	display: inline-block;
+	transition: transform .3s ease-in-out;
+	transform: rotate(0);
+	margin-left: 10px;
+}
+.btn-primary:hover span {
+	transform: rotate(-45deg);
 }
 .social-link {
 	display: block;
@@ -26,4 +47,8 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+.container {
+	margin: var(--marginY) var(--marginX);
 }
