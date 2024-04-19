@@ -2,7 +2,14 @@
     /* Définition des couleurs */
     --primary: #F6C800;
     --secondary: #2B4C5F;
+    --beige: #FBF8EA;
+    --text-light: #fff;
+    --text-light-300: #cecdcd;
+    --text-dark: #2d2d2d;
+    --text-dark-300: #525252;
     /* Définition des variables des polices */
+    --text-font: "Montserrat", sans-serif;
+    --title-font: "", sans-serif;
     /* Définition des variables des marges */
     --marginX: 200px;
     --marginY: 100px;

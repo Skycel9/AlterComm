@@ -11,9 +11,10 @@
     align-content: center;
     text-align: center;
     background-image: url("/ACAD_MMI/assets/media/projects/bureaux.jpg");
-    background-size: cover;
+    backdrop-filter: brightness(35%);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #error {
@@ -24,7 +25,7 @@
 
 #error h1 {
     margin-bottom: 50px;
-    color: var(--primary);
+    color: var(--secondary);
     scale: 200%;
 }
 

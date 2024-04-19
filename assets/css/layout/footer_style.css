@@ -4,7 +4,7 @@
     padding: 20px 0;
 }
 
-.footer-content h1 {
+.footer h1 {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -12,29 +12,14 @@
     color: var(--primary);
 }
 
-.container {
+.footer .container {
     display: flex;
+    justify-content: space-between;
 }
 
-.logo,
-.contact,
-.socials {
+.footer .container>div {
     flex: 1;
-}
-
-.footer-section {
-    flex: 1;
-    padding: 0 20px;
-}
-
-.footer .logo-text {
-    color: #fff;
-    font-size: 1.3rem;
-    margin-bottom: 30px;
-}
-
-.footer .about .contact {
-    margin: 20px 0;
+    padding: 10px;
 }
 
 .footer .about .contact span a {
@@ -43,15 +28,6 @@
 }
 
 .footer .about .contact span a:hover {
-    color: #ddd;
-}
-
-.footer .about .socials a {
-    margin: 0 10px;
-    color: #fff;
-}
-
-.footer .about .socials a:hover {
     color: #ddd;
 }
 
