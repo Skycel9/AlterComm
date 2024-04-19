@@ -1,0 +1,13 @@
+:root {
+
+	/* Définition des couleurs */
+	--primary: #F6C800;
+	--secondary: #2B4C5F;
+
+	/* Définition des variables des polices */
+
+
+	/* Définition des variables des marges */
+	--marginX: 200px;
+	--marginY: 100px;
+}
